@@ -287,8 +287,8 @@ int main()
         al_show_native_message_box(NULL,NULL,NULL,"Couldnt create Screen",NULL,NULL);
 
     ALLEGRO_EVENT_QUEUE* queue;
-
     ALLEGRO_TIMER* timer;
+
     timer = al_create_timer(1.0 / 60.0);
     queue = al_create_event_queue();
     font = al_create_builtin_font();
@@ -504,56 +504,67 @@ int main()
 
 /**
 
+fonte in photopea: orbitron
+sound effects free: https://www.chosic.com/free-music/piano/, https://pixabay.com/sound-effects/search/background%20piano/?pagi=2
+acesso arquivos, virutal diretorios (exemplo: doom.wad): https://icculus.org/physfs/docs/html/
 speech to text free
 https://ttsmp3.com/
 
-1 - retrovisor - side mirror
-martelo - hammer
-caneleira - shin guard
-calçada - sidewalk
-escova de dente - toothbrush
-pata - paw
-esgoto - sewage
-boeiro -drain
-Abacaxi - Pineapple
-petroleo - oil
-celeiro - barn
-Amanhecer - Dawn - 11
-Ranzinza - Grumpy
-manga - mango
-grama - grass
+Carro - Car
 
+Piloto - Driver
 
-tijolo - brick
-colher - spoon
-garfo - fork
-caderno - notebook paper
-geladeira - fridge
-cana de açucar - sugarcane
-chuteira - soccer cleats
-manga - t-shirt sleeve
-pano de mesa - tablecloth
-caixa de areia de gato -litter box
-dever de casa - homework
-Cavalo-marinho - Seahorse
-Piquenique - Picnic
-Eclético - Eclectic
-Deslumbrante - Stunning
-Ferroviário - Railway worker
-Cavaleiro - Knight
-Sussurro - Whisper
-Esplêndido - Splendid
-Labirinto - Labyrinth
-Alma - Soul
-Mendigo - Beggar
-Penumbra - Twilight
-Peregrino - Pilgrim
-Vagalume - Firefly
-Inóspito - Inhospitable
-Nefasto - Nefarious
-Pálido - Pale
-Voraz - Voracious
+Pneus - Tires
 
+Asa - Wing
+
+Volante - Steering Wheel
+
+Motor - Engine
+
+Equipe - Team
+
+Pit Stop - Pit Stop
+
+Combustível - Fuel
+
+Suspensão - Suspension
+
+Freios - Brakes
+
+Largada - Start
+
+Corrida - Race
+
+Podium - Podium
+
+Capacete - Helmet
+
+Aerodinâmica - Aerodynamics
+
+Circuito - Circuit
+
+Chassis - Chassis
+
+Bandeira - Flag
+
+Reta - Straight
+
+Curva - Corner
+
+Paddock - Paddock
+
+Classificação - Qualifying
+
+Campeonato - Championship
+
+Acidente - Crash
+
+Safety Car - Safety Car
+
+Luva - Glove
+
+Velocidade - Speed
 
 PARTS OF THE CAR
 Volante - Steering wheel
@@ -572,58 +583,5 @@ Pneu - Tire
 Suspensão - Suspension
 
 
-sound effects free: https://www.chosic.com/free-music/piano/, https://pixabay.com/sound-effects/search/background%20piano/?pagi=2
-acesso arquivos, virutal diretorios (exemplo: doom.wad): https://icculus.org/physfs/docs/html/
-
-Cão - Dog
-Gato - Cat
-Casa - House
-Árvore - Tree
-Bola - Ball
-Livro - Book
-Carro - Car
-Avião - Airplane
-Escola - School
-Sol - Sun <---
-Lua - Moon
-Pássaro - Bird
-Floresta - Forest
-Praia - Beach
-Cidade - City
-Montanha - Mountain
-Rio - River
-Lago - Lake
-Oceano - Ocean
-Estrela - Star
-Fruta - Fruit
-Verdura - Vegetable
-Leite - Milk
-Água - Water
-Suco - Juice
-Pão - Bread
-Queijo - Cheese
-Ovo - Egg
-Arroz - Rice
-Feijão - Beans - 30
-Carne - Meat
-Peixe - Fish
-Macaco - Monkey
-Elefante - Elephant
-Leão - Lion
-Girafa - Giraffe
-Zebra - Zebra
-Tigre - Tiger
-Urso - Bear
-Cavalo - Horse - 40
-Galinha - Chicken
-Porco - Pig
-Cabra - Goat
-Sapo - Frog
-Cobra - Snake
-Tartaruga - Turtle
-Camisa - Shirt
-Calça - Pants
-Sapato - Shoe
-Chapéu - Hat - 50
 
 **/
